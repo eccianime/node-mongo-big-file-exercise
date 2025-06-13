@@ -5,8 +5,13 @@
   "repository": "https://github.com/fedenelli/node-mongo-big-file-exercise.git",
   "author": "Federico Nelli <fnelli@carbon-base.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
   "dependencies": {
     "compression": "^1.7.4",
+    "csv-parser": "^3.2.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^6.9.0",
@@ -18,6 +23,6 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0",
-    "nodemon": "^2.0.20"
+    "nodemon": "^3.1.10"
   }
 }
